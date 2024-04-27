@@ -1,0 +1,35 @@
+Berikut ini adalah panduan penggunaan lengkap untuk menjalankan aplikasi "ptfbs":
+
+Langkah 1: Unduh Aplikasi
+1.Unduh aplikasi dari repositori GitHub di https://github.com/AdliMuhamadDhiyaulHaq/ptfbs.
+2.Klik tombol "Code" dan pilih opsi "Download ZIP" untuk mengunduh file ZIP aplikasi.
+
+Langkah 2: Ekstrak File
+Setelah mengunduh, ekstrak file ZIP yang telah Anda unduh ke lokasi yang nyaman bagi Anda.
+
+Langkah 3: Instal Aplikasi Laragon/XAMPP
+Jika Anda belum menginstal Laragon atau XAMPP, Anda perlu mengunduh dan menginstal salah satu dari mereka.
+Laragon dapat diunduh dari https://laragon.org/download/.
+XAMPP dapat diunduh dari https://www.apachefriends.org/download.html.
+
+Langkah 4: Konfigurasi Database
+1.Buka aplikasi Laragon/XAMPP dan pastikan server Apache dan MySQL sudah berjalan.
+2.Buka browser web dan akses phpMyAdmin dengan mengetikkan http://localhost/phpmyadmin di bilah alamat.
+3.Buatlah database baru dengan nama yang Anda inginkan untuk aplikasi ini.
+
+Langkah 5: Konfigurasi Aplikasi Laravel
+1.Buka terminal atau command prompt dan arahkan ke direktori aplikasi "ptfbs" yang telah Anda ekstrak.
+2.Salin berkas .env.example dan ubah namanya menjadi .env.
+3.Buka berkas .env dengan teks editor dan konfigurasikan pengaturan database Anda dengan menggunakan informasi yang sesuai dengan pengaturan MySQL Anda.
+
+Langkah 6: Instal Dependensi
+1.Di terminal atau command prompt, arahkan ke direktori aplikasi "ptfbs".
+2.Jalankan perintah berikut untuk menginstal semua dependensi yang dibutuhkan oleh aplikasi melalui terminal ketik:  "composer install"
+
+Langkah 7: Jalankan Server
+1.Di terminal atau command prompt, arahkan ke direktori aplikasi "ptfbs".
+2.Jalankan server PHP built-in dengan menjalankan perintah berikut: "php artisan serve"
+
+Langkah 8: Akses Aplikasi
+1.Buka browser web Anda dan kunjungi http://127.0.0.1:8000/ atau http://localhost:8000/ untuk mengakses aplikasi.
+

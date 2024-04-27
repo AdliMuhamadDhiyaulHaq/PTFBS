@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="assets/css/pages/simple-datatables.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
-
+<title>Menu | Laporan</title>
 @include('componen/header')
 
 <title>Menu | Scan No Otomatis</title>
